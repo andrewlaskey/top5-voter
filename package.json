@@ -1,0 +1,45 @@
+{
+  "name": "top5-voter",
+  "version": "1.0.0",
+  "description": "A simple voting app built with React, React-Router, Firebase, LocalStorage, IFTTT, and Spotify.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-webserver": "^0.9.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "firebase": "^4.10.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewlaskey/top5-voter.git"
+  },
+  "author": "Andrew Laskey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewlaskey/top5-voter/issues"
+  },
+  "homepage": "https://github.com/andrewlaskey/top5-voter#readme"
+}
