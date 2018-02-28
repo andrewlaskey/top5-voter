@@ -65,7 +65,7 @@ gulp.task('webserver', function() {
 });
 
 gulp.task('watch:js', function() {
-  return gulp.watch('./src/app.js', compile);
+  return gulp.watch(['./src/**/*.js'], compile);
 });
 
 gulp.task('watch:html', function() {
