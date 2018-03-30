@@ -26,7 +26,7 @@ class App extends React.Component{
 };
 
 ReactDOM.render((
-  <BrowserRouter>
+  <BrowserRouter basename="/top5-voter">
     <App></App>
   </BrowserRouter>
 ), document.getElementById('app'));
